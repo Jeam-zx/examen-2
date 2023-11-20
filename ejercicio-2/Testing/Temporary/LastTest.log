@@ -1,0 +1,62 @@
+Start testing: Nov 19 22:38 -04
+----------------------------------------------------------
+1/1 Testing: UnitTests
+1/1 Test: UnitTests
+Command: "/mnt/c/Users/Jeamh/CLionProjects/Examen1/Examen2/ejercicio-2/runUnitTests"
+Directory: /mnt/c/Users/Jeamh/CLionProjects/Examen1/Examen2/ejercicio-2
+"UnitTests" start time: Nov 19 22:38 -04
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/Jeamh/CLionProjects/Examen1/Examen2/ejercicio-2/ext/googletest/googletest/src/gtest_main.cc
+[==========] Running 14 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from PrefijoTest
+[ RUN      ] PrefijoTest.EvaluaExpresionSimple
+[       OK ] PrefijoTest.EvaluaExpresionSimple (0 ms)
+[ RUN      ] PrefijoTest.EvaluaExpresionCompleja
+[       OK ] PrefijoTest.EvaluaExpresionCompleja (0 ms)
+[ RUN      ] PrefijoTest.EjemploExamenPreEval
+[       OK ] PrefijoTest.EjemploExamenPreEval (0 ms)
+[ RUN      ] PrefijoTest.EjemploExamenPostEval
+[       OK ] PrefijoTest.EjemploExamenPostEval (0 ms)
+[----------] 4 tests from PrefijoTest (0 ms total)
+
+[----------] 3 tests from PostfijoTest
+[ RUN      ] PostfijoTest.EvaluaExpresionSimple
+[       OK ] PostfijoTest.EvaluaExpresionSimple (0 ms)
+[ RUN      ] PostfijoTest.EvaluaExpresionCompleja
+[       OK ] PostfijoTest.EvaluaExpresionCompleja (0 ms)
+[ RUN      ] PostfijoTest.MostrarPrefijoParentesisDerecho
+[       OK ] PostfijoTest.MostrarPrefijoParentesisDerecho (0 ms)
+[----------] 3 tests from PostfijoTest (0 ms total)
+
+[----------] 7 tests from MostrarTest
+[ RUN      ] MostrarTest.MostrarDivision
+[       OK ] MostrarTest.MostrarDivision (0 ms)
+[ RUN      ] MostrarTest.ExpresionPrefijaSimple
+[       OK ] MostrarTest.ExpresionPrefijaSimple (0 ms)
+[ RUN      ] MostrarTest.ExpresionPostfijaSimple
+[       OK ] MostrarTest.ExpresionPostfijaSimple (0 ms)
+[ RUN      ] MostrarTest.ExpresionPrefijaCompleja
+[       OK ] MostrarTest.ExpresionPrefijaCompleja (0 ms)
+[ RUN      ] MostrarTest.ExpresionPostfijaComleja
+[       OK ] MostrarTest.ExpresionPostfijaComleja (0 ms)
+[ RUN      ] MostrarTest.ExpresionEjemploMostrarPrefijaExamen
+[       OK ] MostrarTest.ExpresionEjemploMostrarPrefijaExamen (0 ms)
+[ RUN      ] MostrarTest.ExpresionEjemploMostrarPostfijaExamen
+[       OK ] MostrarTest.ExpresionEjemploMostrarPostfijaExamen (0 ms)
+[----------] 7 tests from MostrarTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 14 tests.
+libgcov profiling error:/mnt/c/Users/Jeamh/CLionProjects/Examen1/Examen2/ejercicio-2/CMakeFiles/runUnitTests.dir/src/test.cpp.gcda:overwriting an existing profile data with a different timestamp
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTests" end time: Nov 19 22:38 -04
+"UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 19 22:38 -04

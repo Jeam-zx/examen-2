@@ -1,0 +1,1 @@
+/usr/bin/c++ --coverage -fprofile-arcs -ftest-coverage CMakeFiles/expresionesAritmeticas.dir/src/expresionesAritmeticas.cpp.o CMakeFiles/expresionesAritmeticas.dir/src/main.cpp.o -o expresionesAritmeticas 
